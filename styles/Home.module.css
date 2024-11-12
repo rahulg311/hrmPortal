@@ -1,0 +1,184 @@
+.container {
+  padding: 0 2rem;
+}
+
+.login_illustration {
+  background-image: url("https://mttest.parinaam.in/images/login_illustration.svg");
+  /* background-color: red !important; */
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-attachment: fixed;
+}
+
+.h100 {
+  height: 100vh !important;
+}
+.cards {
+  box-shadow: 2px 1px 61px -19px rgb(0 0 0 / 18%);
+  -webkit-box-shadow: 2px 1px 61px -19px rgb(0 0 0 / 18%);
+  -moz-box-shadow: 2px 1px 61px -19px rgba(0, 0, 0, 0.18);
+  padding: 3rem;
+  border-radius: 20px;
+  border: none;
+  background-color: white;
+}
+.cards img {
+  width: 270px;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.shadow {
+  box-shadow: 0 2px 6px -2px rgba(0, 0, 0, 0.16),
+    0 2px 6px 0 rgba(0, 0, 0, 0.12) !important;
+}
+
+@media (min-width: 1200px) {
+  .col-xl-4 {
+    flex: 0 0 auto;
+    width: 33.33333%;
+  }
+}
+@media (min-width: 1200px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 992px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm {
+    max-width: 960px;
+  }
+}
+@media (min-width: 768px) {
+  .container,
+  .container-md,
+  .container-sm {
+    max-width: 720px;
+  }
+}
+@media (min-width: 576px) {
+  .container,
+  .container-sm {
+    max-width: 540px;
+  }
+}
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 12px);
+  padding-left: var(--bs-gutter-x, 12px);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+ /*  LOGIN PAGE  START */
+ #form{
+  color:white;
+   width:50%;
+   height:35px;
+   padding:11px;
+   font-size:25px;
+   box-shadow:15px 15px 25px black;
+   border:2px solid green;
+   background:green;
+   border-radius:0 100px 0 100px ;
+   animation:example 1s linear alternate; 
+   }
+@keyframes example {
+100%{
+   transform:translate3d(0px,0px,0px0px,);
+ }
+
+
+0%{
+   transform:translate3d(210px,0px,0px);
+ }
+ 
+}
+
+   
+   .form-control{
+   width:30%;
+   border-bottom:15px;
+   border: solid green;
+   box-shadow:9px 9px 25px black;
+   margin-bottom:20px;
+    margin-left:10px;
+    border-radius: 30px 0 30px 0;
+   padding:5px 50px 5px 50px;
+   }
+   .form-control:focus{
+   border: solid red;
+   box-shadow:15px 15px 25px black;
+ 
+   }
+
+   
+   #login{
+   background:white;
+   box-shadow:9px 9px 25px black;
+   text-decoration:none;
+   border:2px solid green;
+   padding:5px 25px 5px 25px;
+   font-size:15px;
+   color:black;
+    border-radius: 50px 0 50px 0;
+   }
+   
+   #login:focus{
+   border:2px solid red;
+   box-shadow:9px 9px 25px black;
+   box-shadow:15px 15px 25px black;
+  
+   }
+   
+   #box{
+   background:white;
+   border:2px solid green;
+   padding:55px;
+   box-shadow:9px 9px 25px black;
+   border-radius: 150px 0 150px 0;
+   width:25%;
+   animation:exam 1s linear alternate; 
+   }
+
+@keyframes exam {
+100%{
+  transform:translate3d(0px,0px,0px)
+ }
+
+0%{
+
+ transform:translate3d(-210px,0px,0px)
+ }
+}
+
+/* label{box-shadow:9px 9px 25px black;
+background:green;
+color:white;
+padding:10px 50px 10px 50px;
+border-radius: 50px 0 50px 0;
+width:100%;}
+
+input[type=text], input[type=password]{
+ outline:none;
+} */
+
+
+/* rebeccapurple */
